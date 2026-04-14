@@ -37,7 +37,7 @@ const templates = {
             max-width: 100%;
             max-height: 100%;
             overflow-y: auto;
-            overflow-x: hidden;
+            overflow-x: auto;
         }
         #text-view-container {
             padding: 12px 16px;
@@ -59,6 +59,11 @@ const templates = {
         #text-view-container h3 { font-size: 1.05rem; }
         #text-view-container a {
             color: #0066cc;
+        }
+
+        #text-view-container img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
     <div id="text-view-container"></div>
